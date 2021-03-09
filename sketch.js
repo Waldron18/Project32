@@ -70,8 +70,6 @@ function draw(){
     stand2.display();
 
     //stand1 boxes
-    strokeWeight(5);
-    fill("red");
     box1.display();
     box2.display();
     box3.display();
@@ -80,37 +78,25 @@ function draw(){
     box6.display();
     box7.display();
     box8.display();
-    strokeWeight(5);
-    fill("blue");
     box9.display();
     box10.display();
     box11.display();
     box12.display();
     box13.display();
-    strokeWeight(5);
-    fill("green");
     box14.display();
     box15.display();
     box16.display();
-    strokeWeight(5);
-    fill("pink");
     box17.display();
 
     //stand2 boxes
-    strokeWeight(5);
-    fill("pink");
     block1.display();
     block2.display();
     block3.display();
     block4.display();
     block5.display();
-    strokeWeight(5);
-    fill("green");
     block6.display();
     block7.display();
     block8.display();
-    strokeWeight(5);
-    fill("white");
     block9.display();
 
     slingshot.display();
