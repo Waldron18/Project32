@@ -6,6 +6,7 @@ const Constraint = Matter.Constraint;
 
 var engine, world;
 var gameState = "onSling";
+var score=0;
 
 function preload(){
     polygonimage= loadImage("polygon.png");
@@ -64,6 +65,9 @@ function setup(){
 function draw(){
     background("grey")
     Engine.update(engine);
+    textSize(25);
+    fill("white");
+    text("Score: "+score,100,50);
 
     ground.display();
     stand1.display();
@@ -71,33 +75,59 @@ function draw(){
 
     //stand1 boxes
     box1.display();
+    box1.score();
     box2.display();
+    box2.score();
     box3.display();
+    box3.score();
     box4.display();
+    box4.score();
     box5.display();
+    box5.score();
     box6.display();
+    box6.score();
     box7.display();
+    box7.score();
     box8.display();
+    box8.score();
     box9.display();
+    box9.score();
     box10.display();
+    box10.score();
     box11.display();
+    box11.score();
     box12.display();
+    box12.score();
     box13.display();
+    box13.score();
     box14.display();
+    box14.score();
     box15.display();
+    box15.score();
     box16.display();
+    box16.score();
     box17.display();
+    box17.score();
 
     //stand2 boxes
     block1.display();
+    block1.score();
     block2.display();
+    block2.score();
     block3.display();
+    block3.score();
     block4.display();
+    block4.score();
     block5.display();
+    block5.score();
     block6.display();
+    block6.score();
     block7.display();
+    block7.score();
     block8.display();
+    block8.score();
     block9.display();
+    block9.score();
 
     slingshot.display();
     

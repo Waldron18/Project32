@@ -33,7 +33,11 @@ class Box{
             image(this.image,this.body.position.x,this.body.position.y,this.width,this.height);
             pop();
         }
-  
+    }
+    score(){
+        if(this.Visiblity <0 && this.Visiblity >-105){
+            score++;
+        }
     }
 }
   
